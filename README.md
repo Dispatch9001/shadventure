@@ -1,9 +1,10 @@
 # shadventure
 
-This repo is a basic text adventure written purely in shell scripts. It is designed to run on any Unix-like OS using your built in shell. 
+This repo is a basic text adventure written purely in shell scripts. It is designed to run on any Unix-like OS using your built-in shell. 
+
+A simple Windows installer has also been included, which will run it through a temporary Git Bash installation to simulate a Unix shell enviroment.
 
 You are welcome to use this as a template for your own game, although please do credit me and/or this repo.
-
 
 ## TODO
 
