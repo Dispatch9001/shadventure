@@ -1,7 +1,5 @@
 @ECHO OFF
 rmdir shadv-win /s /q
-:: del shadv-win\* /s /q 1>nul
-:: del shadv-win
 mkdir shadv-win
 cd shadv-win
 cls
