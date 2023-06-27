@@ -28,12 +28,14 @@ This script has not been tested on macOS, but it *should* work out of the box. T
 
 There are two ways to run it on Windows.
 
-1. The automatic install script
-Simply copy-paste and run this oneliner in the the Command Prompt or Powershell. It is tested on Windows 10+, but should still work all the way back to 7.
-`powershell -C "iwr https://raw.githubusercontent.com/Dispatch9001/shadventure/master/win/install.bat -O install.bat; .\install.bat"`
+1. The automatic install script: 
+  Simply copy-paste and run this oneliner in the the Command Prompt or Powershell. It is tested on Windows 10+, but should still work all the way back to 7.
+```
+powershell -C "iwr https://raw.githubusercontent.com/Dispatch9001/shadventure/master/win/install.bat -O install.bat; .\install.bat"`
+```
 
-2. Through WSL
-The Linux install instructions work fine through WSL if you already have it installed.
+2. Through WSL:
+  The Linux install instructions will work fine through WSL if you already have it installed. If you don't, just use the oneliner above.
 
 ## TODO
 
