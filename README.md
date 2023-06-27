@@ -11,13 +11,14 @@ You are welcome to use this as a template for your own game, although please do 
 ### Linux
 
 The game is optimised for Linux, and it is most heavily tested there.
-To run, simply clone the repo and run `start.sh`. Depending on your distro, you may have to give it executable permissions, which can be done easily in your file properties, or with `chmod +x start.sh`.
+To run, simply clone the repo and run `start.sh`. That can be done through a GUI easily, by downloading this repo as a zip, extracting it, and running the file. A you can use these commands.
 
 ```bash
 git clone https://github.com/Dispatch9001/shadventure.git
 cd shadventure
 ./start.sh
 ```
+**NOTE**: Using these commands requires `git` to be installed. You can use the GUI method without Git
 
 ### macOS
 
