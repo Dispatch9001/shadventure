@@ -71,4 +71,4 @@ read -p ">> " -r response
   fi
 done
 
-echo "The things were done"
+echo "------------"
