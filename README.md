@@ -6,6 +6,34 @@ A simple Windows installer has also been included, which will run it through a t
 
 You are welcome to use this as a template for your own game, although please do credit me and/or this repo.
 
+## INSTALLATION
+
+### Linux
+
+The game is optimised for Linux, and it is most heavily tested there.
+To run, simply clone the repo and run `start.sh`. Depending on your distro, you may have to give it executable permissions, which can be done easily in your file properties, or with `chmod +x start.sh`.
+
+```bash
+git clone https://github.com/Dispatch9001/shadventure.git
+cd shadventure
+./start.sh
+```
+
+### macOS
+
+This script has not been tested on macOS, but it *should* work out of the box. The steps would be identical to Linux.
+
+### Windows
+
+There are two ways to run it on Windows.
+
+1. The automatic install script
+Simply run this oneliner in the Run prompt, the command prompt, or Powershell. It is tested on Windows 10+, but should still work all the way back to 7.
+`powershell -c "iwr URL | iex`
+
+2. Through WSL
+The Linux install instructions work fine through WSL if you already have it installed.
+
 ## TODO
 
 ### Top Priority
