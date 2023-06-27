@@ -23,7 +23,7 @@ You are welcome to use this as a template for your own game, although please do 
 
 ### Medium Priority
 
-- [ ] Windows Installer
+- [x] Windows Installer
 
 ### Low Priority
 
