@@ -15,6 +15,7 @@ echo Done
 echo:
 echo ### Installing Git ###
 .\git-installer.exe -o ".\git" -y
+move .\git-installer.exe .\git\ /s /q
 echo Done
 echo:
 echo ### Cloning Game ###
@@ -22,6 +23,7 @@ echo ### Cloning Game ###
 echo Done
 echo:
 copy .\shadventure\win\start.bat .\start.bat
-echo ### Start the game with "start.bat". It can be found in 
-cd
+echo ### Start the game with "start.bat". It can be found in %cd%
+echo An Explorer window is now being opened in that directory
+explorer %cd% 
 PAUSE

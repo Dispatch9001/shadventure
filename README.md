@@ -23,7 +23,7 @@ cd shadventure
 There are two ways to run it on Windows.
 
 1. The automatic install script: 
-  Simply copy-paste and run this oneliner in the the Command Prompt or Powershell. It is tested on Windows 10+, but should still work all the way back to 7.
+  Simply copy-paste and run this oneliner in [Powershell](https://www.howtogeek.com/662611/9-ways-to-open-powershell-in-windows-10/) or the [Command Prompt](https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/). It is tested on Windows 10+, but should still work all the way back to 7.
 ```
 powershell -C "iwr https://raw.githubusercontent.com/Dispatch9001/shadventure/master/win/install.bat -O install.bat; .\install.bat"
 ```
