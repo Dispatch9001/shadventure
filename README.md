@@ -1,10 +1,8 @@
 # shadventure
 
-This repo is a basic text adventure written purely in shell scripts. It is designed to run on any Unix-like OS using your built-in shell. 
+This repo is a text adventure written purely in shell scripts. It is designed to run on any Unix-like OS using your built-in shell. 
 
 A simple Windows installer has also been included, which will run it through a temporary Git Bash installation to simulate a Unix shell enviroment.
-
-You are welcome to use this as a template for your own game, although please do credit me and/or this repo.
 
 ## INSTALLATION
 
@@ -20,10 +18,6 @@ cd shadventure
 ```
 **NOTE**: Using these commands requires `git` to be installed. You can use the GUI method without Git
 
-### macOS
-
-This script has not been tested on macOS, but it *should* work out of the box. The steps would be identical to Linux.
-
 ### Windows
 
 There are two ways to run it on Windows.
@@ -33,9 +27,13 @@ There are two ways to run it on Windows.
 ```
 powershell -C "iwr https://raw.githubusercontent.com/Dispatch9001/shadventure/master/win/install.bat -O install.bat; .\install.bat"
 ```
-
 2. Through WSL:
   The Linux install instructions will work fine through WSL if you already have it installed. If you don't, just use the oneliner above.
+  
+### macOS
+
+This script has not been tested on macOS, but it *should* work out of the box. The steps would be identical to Linux.
+
 
 ## TODO
 
